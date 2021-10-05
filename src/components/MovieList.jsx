@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import MovieCard from './MovieCard';
+import '../css/movieList.css';
 
 class MovieList extends Component {
   render() {
@@ -9,7 +10,7 @@ class MovieList extends Component {
     const elements = movies
       .map((movie) => (<MovieCard key={ movie.title } movie={ movie } />));
     return (
-      <div>
+      <div className="movie-list-container">
         { elements }
       </div>
     );

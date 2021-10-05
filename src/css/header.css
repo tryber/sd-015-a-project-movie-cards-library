@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  background-color: gray;
+  color: white;
+  display: grid;
+  place-items: center;
+}
