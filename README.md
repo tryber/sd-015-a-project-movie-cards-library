@@ -93,9 +93,9 @@ Desenvolva uma aplicação **React** que seja composta por um `conjunto de compo
 ⚠️ **Certifique-se de que você está usando a versão [LTS](https://nodejs.org/en/) do node** ⚠️ 
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-movie-cards-library.git`
+  * `git clone https://github.com/tryber/sd-015-a-project-movie-cards-library.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-movie-cards-library`
+    * `cd sd-015-a-project-movie-cards-library`
 
 2. Instale as dependências, inicialize o projeto e rode os testes
   * Instale as dependências:
@@ -133,13 +133,13 @@ Desenvolva uma aplicação **React** que seja composta por um `conjunto de compo
   * Usando o exemplo anterior: `git push -u origin joaozinho-movie-cards-library`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-movie-cards-library/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-015-a-project-movie-cards-library/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-movie-cards-library/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-015-a-project-movie-cards-library/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
