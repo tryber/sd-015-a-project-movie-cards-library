@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MovieList movies= { Data } />
+      <MovieList movies={ Data } />
     </div>
   );
-};
+}
 
 export default App;
