@@ -22,7 +22,7 @@ MovieList.propTypes = {
     rating: PropTypes.number,
     imagePath: PropTypes.string,
   })).isRequired,
-}
+};
 
 // MovieList.defaultProps = { // -> COMO FOI USADO isRequired NO MOVIELIST.PROPTYPES, O DEFAULT NÃO É NECESSÁRIO!
 //   movies: PropTypes.arrayOf(PropTypes.shape({
