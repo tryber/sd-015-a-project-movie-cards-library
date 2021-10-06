@@ -31,6 +31,7 @@ body {
   border-radius: 3px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 450px;
   margin: 5px;
   overflow: hidden;
@@ -40,6 +41,7 @@ body {
 
 .movie-card-image {
   width: 100%;
+  max-width: 450px;
 }
 
 .movie-card-body {
@@ -79,5 +81,6 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
   justify-content: flex-end;
+  align-self: stretch;
   padding: 12px 20px;
 }
