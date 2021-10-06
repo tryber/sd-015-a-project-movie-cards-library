@@ -3,7 +3,7 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    return (<Rating />);
+    return (<div><Rating /></div>);
   }
 }
 
