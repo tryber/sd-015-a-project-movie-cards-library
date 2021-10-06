@@ -1,4 +1,4 @@
-// implement Header component here teste
+// implement Header component here testea
 import React from 'react';
 
 class Header extends React.Component {
