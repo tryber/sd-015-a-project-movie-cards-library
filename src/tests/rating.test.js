@@ -29,7 +29,7 @@ const movies = [
   },
 ];
 
-describe('11 - Crie um componente `<Rating />`', () => {
+describe.only('11 - Crie um componente `<Rating />`', () => {
   it('Renderize o componente `<Rating />`', () => {
     shallow(<Rating />);
   });

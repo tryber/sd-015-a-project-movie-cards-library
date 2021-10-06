@@ -43,7 +43,7 @@ describe('7 - Renderize a imagem do filme dentro de uma tag `img`', () => {
   });
 });
 
-describe.only('8 - Renderize o título do filme dentro de uma tag `h4`', () => {
+describe('8 - Renderize o título do filme dentro de uma tag `h4`', () => {
   let wrapper;
   const movie = movies[0];
   it('Renderize o título do filme dentro de uma tag `h4`', () => {
