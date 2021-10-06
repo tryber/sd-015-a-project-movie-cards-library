@@ -1,4 +1,5 @@
 import React from 'react';
+import MovieCard from './MovieCard';
 
 class MovieList extends React.Component {
   render() {
@@ -6,8 +7,13 @@ class MovieList extends React.Component {
     // console.log(movies);
     return (
       <div>
-        fsdfsd
-      </div>);
+        {
+          movies.map((element) => (
+            <MovieCard key={ element.title } movie={ element } />
+          ))
+        }
+      </div>
+    );
   }
 }
 
