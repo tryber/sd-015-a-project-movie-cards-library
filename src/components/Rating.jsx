@@ -1,34 +1,24 @@
 // implement Rating component here
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import movies from '../data';
+import PropTypes from 'prop-types';
 
 class Rating extends React.Component {
-// constructor(props) {
-//         super(props)
-// }
   render() {
-    // const movies = this.props;
+    const { rating } = this.props;
     return (
-      <div className="rating">
-        {/* {movies.map((movie) => (
-          <div key={ movie.title } className="rate">
-            <p>{ movie.rating }</p>
-          </div>
-        ))} */}
+      <div className="rate">
+        <p className="rating">{ rating }</p>
       </div>
     );
   }
 }
 
-// Rating.propTypes = {
-//   movies: PropTypes.arrayOf({
-//     rating: PropTypes.number,
-//   }) };
+Rating.propTypes = {
+  rating: PropTypes.number,
+};
 
-// Rating.defaultProps = {
-//   movies: propTypes.arrayOf({
-//     rating: 0,
-//   }) };
+Rating.defaultProps = {
+  rating: 0,
+};
 
 export default Rating;
