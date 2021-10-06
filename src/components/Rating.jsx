@@ -1,8 +1,10 @@
 // implement Rating component here
-// import React from 'react';
+import React from 'react';
 
-// class RatingComponent extends React.Component {
-//   render() {
-//     return()
-//   }
-// }
+class Rating extends React.Component {
+  render() {
+    return (<span />);
+  }
+}
+
+export default Rating;
