@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Rating from './Rating';
 
-export class MovieCard extends Component {
+export default class MovieCard extends Component {
   render() {
     const { movie: { title, subtitle, storyline, imagePath: src, rating } } = this.props;
 
@@ -31,5 +31,3 @@ const propTypes = {
 };
 
 MovieCard.propTypes = propTypes;
-
-export default MovieCard;

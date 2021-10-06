@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export class Rating extends Component {
+export default class Rating extends Component {
   render() {
     const { rating } = this.props;
     return (
@@ -21,5 +21,3 @@ Rating.propTypes = propTypes;
 Rating.defaultProps = {
   rating: -1,
 };
-
-export default Rating;
