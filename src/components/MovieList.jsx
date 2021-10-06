@@ -5,7 +5,6 @@ import MovieCard from './MovieCard';
 class MovieList extends React.Component {
   render() {
     const { movies } = this.props;
-    console.log(movies);
     return (
       <main className="movie-list">
         { movies.map((elem) => (<MovieCard key={ elem.title } movie={ elem } />))}
@@ -22,7 +21,6 @@ MovieList.propTypes = {
       storyline: PropTypes.string,
       rating: PropTypes.number,
       imagePath: PropTypes.string,
-      link: PropTypes.string,
     }),
   ),
 };
