@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .page-title {
-  color: #f8f9fa;
+  color: #f7f7f7;
   font-size: 28px;
   font-weight: 500;
   text-align: center;
