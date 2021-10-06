@@ -1,20 +1,19 @@
-// import React, { Component } from 'react';
-// // import movies from '../data';
+import React from 'react';
+// import PropTypes from 'prop-types';
 
-// class MovieCard extends Component {
-//   render() {
-//     // const { movies: {title, subtitle, storyline, rating, imagePath} } = this.props;
-//     // return (
-//     //   <div>
-//     //     <p>{this.props.title}</p>
-//     //     <p>{subtitle}</p>
-//     //     <p>{storyline}</p>
-//     //     <p>{rating}</p>
-//     //     <p>{imagePath}</p>
-//     //   </div>
-//     // );
-//     return <p>{this.props.title}</p>;
-//   }
-// }
+class MovieCard extends React.Component {
+  render() {
+    const { movie: { title, subtitle, storyline, rating, imagePath } } = this.props;
+    return (
+      <div className="movie">
+        <p>{title}</p>
+        <p>{subtitle}</p>
+        <p>{storyline}</p>
+        <p>{rating}</p>
+        <p>{imagePath}</p>
+      </div>
+    );
+  }
+}
 
-// export default MovieCard;
+export default MovieCard;
