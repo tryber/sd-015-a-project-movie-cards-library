@@ -2,10 +2,11 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-    const { movie } = this.props;
+    // eslint-disable-next-line react/prop-types
+    const { movie: { imagePath } } = this.props;
     return (
       <div className="movie-card">
-        <img src={ movie.imagePath } alt="" />
+        <img src={ imagePath } alt="" />
       </div>
     );
   }
