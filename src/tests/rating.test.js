@@ -43,7 +43,7 @@ describe('12 - Renderize a nota de um filme dentro de `Rating`', () => {
   });
 });
 
-describe.only('13 - Renderize o componente `<Rating />` dentro de `<MovieCard />`', () => {
+describe('13 - Renderize o componente `<Rating />` dentro de `<MovieCard />`', () => {
   let wrapper;
   const movie = movies[0];
   it('Renderize o componente `<Rating />` dentro de `<MovieCard />`', () => {
