@@ -8,8 +8,7 @@ import './components/Rating';
 function App() {
   return (
     <div className="App">
-      {<Header />}
-      Hora de codar! 🚀✍️👨‍💻👩‍💻💪
+      <Header />
     </div>
   );
 }
