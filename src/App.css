@@ -26,11 +26,11 @@ body {
 }
 
 .movie-card {
+  align-items: center;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
   display: flex;
-  align-items: center;
   flex-direction: column;
   height: 450px;
   margin: 5px;
@@ -77,10 +77,10 @@ body {
 }
 
 .movie-card-rating {
+  align-self: stretch;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
-  align-self: stretch;
   justify-content: flex-end;
   padding: 12px 20px;
 }
