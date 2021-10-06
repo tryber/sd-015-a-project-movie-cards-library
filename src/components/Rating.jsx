@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 export default class Rating extends React.Component {
   render() {
     const { rating } = this.props;
+    console.log(this.props);
     return (
-      <div className="rating">
-        { rating }
+      <div className="movie-card-rating">
+        <span className="rating">{ rating }</span>
       </div>
     );
   }
