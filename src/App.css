@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 450px;
+  justify-content: space-between;
   margin: 5px;
   overflow: hidden;
   width: 300px;
@@ -51,6 +52,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   margin: 0 0 12px;
+  padding-left: 10px;
 }
 
 .movie-card-subtitle {
@@ -58,10 +60,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin: 0 0 8px;
+  padding-left: 10px;
 }
 
 .movie-card-storyline {
   font-size: 14px;
+  padding: 10px;
   text-align: justify;
 }
 
