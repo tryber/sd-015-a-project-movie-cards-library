@@ -8,7 +8,7 @@ class MovieList extends React.Component {
     const { movies } = this.props;
     return (
       <section>
-        {movies.map((movie) => <MovieCard key={movie.title} movie={movie}/>)}
+        {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
       </section>
     );
   }
@@ -24,14 +24,14 @@ MovieList.propTypes = {
   })).isRequired,
 }
 
-MovieList.defaultProps = {
-  movies: PropTypes.arrayOf(PropTypes.shape({
-    title: '',
-    subtitle: '',
-    storyline: '',
-    rating: 0,
-    imagePath: '',
-  }))
-}
+// MovieList.defaultProps = { // -> COMO FOI USADO isRequired NO MOVIELIST.PROPTYPES, O DEFAULT NÃO É NECESSÁRIO!
+//   movies: PropTypes.arrayOf(PropTypes.shape({
+//     title: '',
+//     subtitle: '',
+//     storyline: '',
+//     rating: 0,
+//     imagePath: '',
+//   }))
+// }
 
 export default MovieList;

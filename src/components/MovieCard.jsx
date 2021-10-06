@@ -28,7 +28,7 @@ MovieCard.propTypes = {
   }).isRequired,
 };
 
-// MovieCard.defaultProps = {
+// MovieCard.defaultProps = { // -> COMO FOI USADO isRequired NO MOVIECARD.PROPTYPES, O DEFAULT NÃO É NECESSÁRIO!
 //   movie: {
 //     title: '',
 //     subtitle: '',
