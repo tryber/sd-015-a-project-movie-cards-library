@@ -52,7 +52,7 @@ describe('8 - Renderize o título do filme dentro de uma tag `h4`', () => {
   });
 });
 
-describe.only('9 - Renderize o subtítulo do filme dentro de uma tag `h5`', () => {
+describe('9 - Renderize o subtítulo do filme dentro de uma tag `h5`', () => {
   let wrapper;
   const movie = movies[0];
   it('Renderize o subtítulo do filme dentro de uma tag `h5`', () => {
@@ -61,7 +61,7 @@ describe.only('9 - Renderize o subtítulo do filme dentro de uma tag `h5`', () =
   });
 });
 
-describe('10 - Renderize a sinopse do filme dentro de uma tag `p`', () => {
+describe.only('10 - Renderize a sinopse do filme dentro de uma tag `p`', () => {
   let wrapper;
   const movie = movies[0];
   it('Renderize a sinopse do filme dentro de uma tag `p`', () => {
