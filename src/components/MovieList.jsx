@@ -5,8 +5,8 @@ import movies from '../data';
 class MovieList extends Component {
   render() {
     return (
-      <div>
-        {movies.map(movie => <MovieCard movie={movie} />)}
+      <div className="movie-list">
+        {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
       </div>
     );
   }
