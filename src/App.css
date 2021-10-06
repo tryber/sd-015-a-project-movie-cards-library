@@ -6,8 +6,8 @@ body {
 
 ul {
   display: flex;
-  list-style: none;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .movie-card-header {
