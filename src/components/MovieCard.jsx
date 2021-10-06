@@ -1,18 +1,20 @@
 // implement MovieCard component here
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class MovieCard extends React.Component {
   render() {
+    const { movie } = this.props;
     return (
       <div>
-        {null}
+        {console.log(movie)}
       </div>
     );
   }
 }
 
-MovieList.propTypes = {
-  movies: PropTypes.shape({
+MovieCard.propTypes = {
+  movie: PropTypes.shape({
     title: PropTypes.string,
     subtitle: PropTypes.string,
     storyline: PropTypes.string,
