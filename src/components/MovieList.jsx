@@ -1,5 +1,6 @@
 // implement MovieList component here
 import React from 'react';
+import MovieCard from './MovieCard';
 
 export default class MovieList extends React.Component {
   // eslint-disable-next-line no-useless-constructor
@@ -8,8 +9,11 @@ export default class MovieList extends React.Component {
   }
 
   render() {
+    const { movies } = this.props;
     return (
-      <div />
+      <div>
+        {movies.map((movie) => <MovieCard key={ movie.title } />)}
+      </div>
     );
   }
 }
