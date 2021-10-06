@@ -13,7 +13,7 @@ body {
 }
 
 .page-title {
-  color: #f8f9fa;
+  color: whitesmoke;
   font-size: 28px;
   font-weight: 500;
   text-align: center;
@@ -75,9 +75,11 @@ body {
 }
 
 .movie-card-rating {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
+  height: 40px;
   justify-content: flex-end;
   padding: 12px 20px;
 }
