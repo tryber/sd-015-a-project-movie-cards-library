@@ -29,13 +29,13 @@ const movies = [
   },
 ];
 
-describe.only('11 - Crie um componente `<Rating />`', () => {
+describe('11 - Crie um componente `<Rating />`', () => {
   it('Renderize o componente `<Rating />`', () => {
     shallow(<Rating />);
   });
 });
 
-describe('12 - Renderize a nota de um filme dentro de `Rating`', () => {
+describe.only('12 - Renderize a nota de um filme dentro de `Rating`', () => {
   let wrapper;
   it('Renderize a nota de um filme dentro de `Rating`', () => {
     wrapper = shallow(<Rating rating={ 3 } />);
