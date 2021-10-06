@@ -4,9 +4,6 @@ import MovieCard from "./MovieCard";
 import PropTypes from 'prop-types';
 
 class MovieList extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { movies } = this.props;
     return (
