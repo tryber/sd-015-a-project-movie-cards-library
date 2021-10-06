@@ -34,7 +34,7 @@ describe('6 - Crie um componente `<MovieCard />`', () => {
   });
 });
 
-describe('7 - Renderize a imagem do filme dentro de uma tag `img`', () => {
+describe.only('7 - Renderize a imagem do filme dentro de uma tag `img`', () => {
   let wrapper;
   const movie = movies[0];
   it('Renderize a imagem do filme dentro de uma tag `img`', () => {
