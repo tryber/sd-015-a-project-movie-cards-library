@@ -1,5 +1,5 @@
 body {
-  background-color: #242424;
+  background-color: #282828;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .movie-card-rating {
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.4);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
   justify-content: flex-end;
