@@ -1,22 +1,22 @@
 .movie-list-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
   padding: 10px;
 }
 
 .movie-card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  height: 50vh;
   border: 2px solid black;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-between;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 
-.movie-card-container img{
+.movie-card-container img {
   width: 100%;
 }
 
