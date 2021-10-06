@@ -1,7 +1,7 @@
 // implement Header component here
 import React, { Component } from 'react';
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
       <header className="movie-card-header">
@@ -10,5 +10,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;
