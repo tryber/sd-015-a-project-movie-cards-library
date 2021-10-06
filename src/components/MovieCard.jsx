@@ -21,10 +21,20 @@ export default MovieCard;
 
 MovieCard.propTypes = {
   movie: Proptypes.shape({
-    title: Proptypes.string.isRequired,
-    subtitle: Proptypes.string.isRequired,
-    storyline: Proptypes.string.isRequired,
-    rating: Proptypes.number.isRequired,
-    imagePath: Proptypes.string.isRequired,
-  }).isRequired,
+    title: Proptypes.string,
+    subtitle: Proptypes.string,
+    storyline: Proptypes.string,
+    rating: Proptypes.number,
+    imagePath: Proptypes.string,
+  }),
+};
+
+MovieCard.defaultProps = {
+  movie: Proptypes.shape({
+    title: 'Sem título',
+    subtitle: 'Sem subtitulo',
+    storyline: 'Sem sinópse',
+    rating: 0.0,
+    imagePath: 'Imagem não encontrada',
+  }),
 };
