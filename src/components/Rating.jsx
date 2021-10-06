@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 class Rating extends Component {
     render() {
-        return
+        return (
+            <span></span>
+        )
     }
 }
 
