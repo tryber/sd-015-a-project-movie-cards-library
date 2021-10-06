@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 
 import App from '../App';
 
-describe.only('15 - Crie um componente `<App />`', () => {
+describe('15 - Crie um componente `<App />`', () => {
   let wrapper;
   it('Renderize `<Header />` dentro do componente `<App />`', () => {
     wrapper = shallow(<App />);
@@ -11,7 +11,7 @@ describe.only('15 - Crie um componente `<App />`', () => {
   });
 });
 
-describe('16 - Renderize `<MovieList />` dentro do componente `<App />`', () => {
+describe.only('16 - Renderize `<MovieList />` dentro do componente `<App />`', () => {
   let wrapper;
   it('Renderize `<MovieList />` dentro do componente `<App />`', () => {
     wrapper = shallow(<App />);
