@@ -1,6 +1,5 @@
 // implement Header component here
 import React from 'react';
-// import movies from '../data';
 import '../App.css';
 
 class Header extends React.Component {
