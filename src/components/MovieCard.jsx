@@ -1,21 +1,19 @@
-// implement MovieCard component here
 import React from 'react';
-import MovieStoryline from './MovieStoryline';
+import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    console.log('Whaat', this.props.movie);
-    const { title, subtitle, rating, storyline, imagePath } = this.props.movie;
+    const { movie: { title, subtitle, storyline, rating, imagePath } } = this.props;
     return (
       <section className="card-wrapper">
         <img className="movie-pic" src={ imagePath } alt="" />
         <div className="movie-description">
           <h4>{title}</h4>
           <h5>{subtitle}</h5>
-          <MovieStoryline storyline={ storyline } />
+          <p>{storyline}</p>
         </div>
         <div className="movie-rating">
-          <p>{rating}</p>
+          <Rating rating={ rating } />
         </div>
       </section>
     );
