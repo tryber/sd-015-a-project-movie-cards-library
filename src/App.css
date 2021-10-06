@@ -38,7 +38,7 @@ body {
 }
 
 
-.movie-card-image {
+.image {
   width: 100%;
 }
 
@@ -51,6 +51,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   margin: 0 0 12px;
+  padding: 0px 20px;
 }
 
 .movie-card-subtitle {
@@ -58,11 +59,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   margin: 0 0 8px;
+  padding: 0px 20px;
 }
 
 .movie-card-storyline {
   font-size: 14px;
   text-align: justify;
+  padding: 0px 20px;
 }
 
 .rating {
