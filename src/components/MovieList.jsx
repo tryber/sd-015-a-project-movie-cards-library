@@ -1,9 +1,11 @@
-// import React from 'react';
-// import movies from '../data';
+import Movies from '../data';
+import React from 'react';
 
-
-// class MovieList extends React.Component {
-//     render( 
-//         const: {title, subtitle, storyline, rating, imagePatch} = movies
-//     )
-// }
+class MovieList extends React.Component {
+  render() {
+    return (
+        <Movies/>
+    );
+  }
+}
+export default MovieList;
