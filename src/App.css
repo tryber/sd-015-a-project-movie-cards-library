@@ -27,7 +27,7 @@ body {
 
 .movie-card {
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid black;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
@@ -75,8 +75,8 @@ body {
 }
 
 .movie-card-rating {
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: black;
+  border-top: 1px solid black;
   display: flex;
   justify-content: flex-end;
   padding: 12px 20px;
