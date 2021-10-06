@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       {/*  Sua implementação deve ficar aqui. Remova essas duas linhas e mão na massa */}
       <Header />
-      <MovieList movies={ movies } className="movie-list" />
+      <MovieList movies={ movies } />
     </div>
   );
 }

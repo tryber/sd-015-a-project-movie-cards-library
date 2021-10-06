@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header>
-      <h1 className="page-title movie-card-header">Movie Cards Library</h1>
+    <header className="movie-card-header">
+      <h1 className="page-title">Movie Cards Library</h1>
     </header>
   );
 }
