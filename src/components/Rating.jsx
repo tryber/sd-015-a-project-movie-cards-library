@@ -15,7 +15,11 @@ class Rating extends React.Component { // Componente React que representa o elem
 
 // PropTypes:
 Rating.propTypes = {
-  rating: propTypes.number.isRequired,
+  rating: propTypes.number,
+};
+
+Rating.defaultProps = { // Caso não haja valor de rating, para um determinado filme, ele receberá nota 0.
+  rating: 0,
 };
 
 export default Rating;
