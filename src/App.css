@@ -1,83 +1,72 @@
-body {
-  background-color: whitesmoke;
-  box-sizing: border-box;
-  font-size: 16px;
+.App {
+background: linear-gradient(to top, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.movie-card-header {
-  align-items: center;
-  background-color: #343a40;
+.head-title {
   display: flex;
-  height: 100px;
+  justify-content: center;
+  align-self: stretch;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  margin-bottom: 15px;
+}
+
+.movies-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
   justify-content: center;
 }
 
-.page-title {
-  color: #f8f9fa;
-  font-size: 28px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.movie-list {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 48px 30px;
-}
-
-.movie-card {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+.content-movie-div {
+  font-size: 18px;
   display: flex;
   flex-direction: column;
-  height: 450px;
-  margin: 5px;
-  overflow: hidden;
-  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: rgb(245, 236, 236);
+  border: ridge rgb(255, 255, 255);
+  width: 320px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-
-.movie-card-image {
-  width: 100%;
+h4 {
+  font-size: 22px;
+  align-self: stretch;
+  border-bottom: solid 2px rgb(8, 147, 172);
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
-.movie-card-body {
-  flex: 1 1 auto;
-  padding: 20px;
+h5 {
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
-.movie-card-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0 0 12px;
+p.story {
+  padding: 5px;
+  text-align: left;
+  font-family:fantasy;
+  font-size: 18px;
+  border-bottom: solid 2px rgb(8, 147, 172);
 }
 
-.movie-card-subtitle {
-  color: #6c757d;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 0 0 8px;
-}
-
-.movie-card-storyline {
-  font-size: 14px;
-  text-align: justify;
-}
-
-.rating {
-  background-color: #007bff;
-  border-radius: 25px;
+p.rating {
   color: white;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 3px 9px;
+  -webkit-text-stroke: 1px #000102;
+  text-shadow: 0px 1px 4px #000000;
+  margin: 0;
 }
 
-.movie-card-rating {
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-  display: flex;
-  justify-content: flex-end;
-  padding: 12px 20px;
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
