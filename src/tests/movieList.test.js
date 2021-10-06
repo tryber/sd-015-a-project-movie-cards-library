@@ -35,7 +35,7 @@ describe('3 - Crie um componente `<MovieList />`', () => {
   });
 });
 
-describe('4 - Renderize componentes `<MovieCard />` dentro de `<MovieList />`', () => {
+describe.only('4 - Renderize componentes `<MovieCard />` dentro de `<MovieList />`', () => {
   let wrapper;
 
   it('Renderize componentes `<MovieCard />` dentro de `MovieList`', () => {
