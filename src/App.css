@@ -34,7 +34,13 @@ body {
   height: 450px;
   margin: 5px;
   overflow: hidden;
+  transition: 0.3s ease;
   width: 300px;
+}
+
+.movie-card:hover {
+  background-color: #343a40;
+  color: white;
 }
 
 
