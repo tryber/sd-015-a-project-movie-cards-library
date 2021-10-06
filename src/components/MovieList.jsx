@@ -11,19 +11,13 @@ class MovieList extends React.Component {
         {movies.map((movie) => (
           <MovieCard key={ movie.title } />
         ))}
-        {movies.map(({ title, rating }) => (
-          console.log(title, rating)
-        ))}
       </div>
     );
   }
 }
 
 MovieList.propTypes = {
-  // eslint-disable-next-line react/require-default-props
-  movies: {
-    title: PropTypes.string,
-  },
+  movies: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default MovieList;
