@@ -1,19 +1,17 @@
 // implement MovieCard component here
 import React from 'react';
-import movies from '../data';
 
 class MovieCard extends React.Component {
   render() {
+    const { movie: { title, subtitle, storyline, rating, imagePath } } = this.props;
     return (
-      movies.map((movie) => (
-        <ul key={ movie.title }>
-          <img src={ movie.imagePath } alt="filmeImg" />
-          <li>{ movie.title }</li>
-          <li>{ movie.subtitle }</li>
-          <li>{ movie.storyline }</li>
-          <li>{ movie.rating }</li>
-        </ul>
-      ))
+      <ul key={ title }>
+        <img src={ imagePath } alt="filmeImg" />
+        <li>{ title }</li>
+        <li>{ subtitle }</li>
+        <li>{ storyline }</li>
+        <li>{ rating }</li>
+      </ul>
     );
   }
 }
