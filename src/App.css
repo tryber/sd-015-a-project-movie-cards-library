@@ -5,8 +5,8 @@ body {
 }
 
 ul {
-  list-style: none;
   display: flex;
+  list-style: none;
   flex-wrap: wrap;
 }
 
