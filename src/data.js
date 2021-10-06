@@ -35,5 +35,5 @@ const movies = [
     imagePath: 'images/Resident_Evil_Vendetta.jpg',
   },
 ];
-//
+
 export default movies;
