@@ -1,10 +1,19 @@
 // implement MovieCard component here
 import React from 'react';
+import movies from '../data';
 
 class MovieCard extends React.Component {
   render() {
     return (
-      <section> </section>
+      movies.map((movie) => (
+        <>
+          <img src={ movie.imagePath } alt="CapaFilme" />
+          <h4>{movie.title}</h4>
+          <h5>{movie.subtitle}</h5>
+          <p>{movie.storyline}</p>
+        </>
+
+      ))
     );
   }
 }
