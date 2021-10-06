@@ -17,6 +17,9 @@ class MovieCard extends Component {
         <h5 className="movie-card-subtitle">
           {movie.subtitle}
         </h5>
+        <p className="movie-card-storyline">
+          {movie.storyline}
+        </p>
 
       </div>);
   }
