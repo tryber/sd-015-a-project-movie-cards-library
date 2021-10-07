@@ -7,9 +7,10 @@ class MovieList extends React.Component {
   render() {
     const { movies } = this.props;
     return (
-      <section>
+      // eslint-disable-next-line max-len
+      <div className="columns is-justify-content-center is-flex-wrap-wrap is-variable is-2-mobile is-0-tablet is-3-desktop is-8-widescreen is-1-fullhd">
         {movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
-      </section>
+      </div>
     );
   }
 }

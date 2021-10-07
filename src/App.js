@@ -9,6 +9,14 @@ function App() {
     <>
       <Header />
       <MovieList movies={ movies } />
+      <footer className="footer is-link $footer-background-color">
+        <div className="content has-text-centered ">
+          <p>
+            Create by
+            <strong> Raphael Taglialegna</strong>
+          </p>
+        </div>
+      </footer>
     </>
   );
 }
