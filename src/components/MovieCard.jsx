@@ -23,14 +23,15 @@ class MovieCard extends Component {
 
 MovieCard.propTypes = {
   movie: PropTypes.shape({
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    storyline: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+    storyline: PropTypes.string.isRequired,
     rating: PropTypes.number,
     imagePath: PropTypes.string,
   }).isRequired,
 };
 
+// estou usando o isRequired então não precisa do default
 // MovieCard.defaultProps = {
 //   movies: PropTypes.arrayOf(PropTypes.shape({
 //     title: 'titulo',
