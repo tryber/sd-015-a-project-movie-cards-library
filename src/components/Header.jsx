@@ -1,13 +1,11 @@
 // implement Header component  here
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 class Header extends React.Component {
   render() {
     return (
-      <div>
-        <Header />
-      </div>
+      <header>
+        <h1>Movie Cards Library</h1>
+      </header>
     );
   }
 }
