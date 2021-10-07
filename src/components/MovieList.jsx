@@ -15,6 +15,7 @@ class MovieList extends React.Component {
       </div>
     );
   }
+  
 }
 
 export default MovieList;
