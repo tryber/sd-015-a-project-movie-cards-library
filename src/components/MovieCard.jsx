@@ -14,8 +14,8 @@ class MovieCard extends React.Component {
             <div>
                 <img src={`./${this.props.movie.imagePath}`} alt='qualquerCoisa' />
                 <div>
-                    <h2>{this.props.movie.title}</h2>
-                    <h3>{this.props.movie.subtitle}</h3>
+                    <h4>{this.props.movie.title}</h4>
+                    <h5>{this.props.movie.subtitle}</h5>
                     <p>{this.props.movie.storyline}</p>
                 </div>
                 <Rating nota={this.props.movie.rating} />
