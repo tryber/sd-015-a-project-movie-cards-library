@@ -1,7 +1,7 @@
 body {
   background-color: whitesmoke;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .movie-card-header {
@@ -25,7 +25,7 @@ body {
   padding: 48px 30px;
 }
 
-.movie-card {
+.MovieCard {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
@@ -79,5 +79,5 @@ body {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   display: flex;
   justify-content: flex-end;
-  padding: 12px 20px;
+  padding: 0 20px;
 }
