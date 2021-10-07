@@ -3,18 +3,14 @@ import PropTypes from 'prop-types';
 import Rating from './Rating';
 
 class MovieCard extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  // }
-
   render() {
-    const { movie: { title, subtitle, storyline, rating } } = this.props;
+    const { movie: { title, subtitle, storyline, rating, imagePath } } = this.props;
     return (
       <div key={ title }>
         <h4>{ title }</h4>
         <h5>{ subtitle }</h5>
         <p>{ storyline }</p>
-        {/* <img src={ imagepath } alt={ title }> */}
+        <img src={ imagePath } alt={ title } />
         <Rating nota={ rating } className="rating" />
       </div>
     );
@@ -26,19 +22,9 @@ MovieCard.propTypes = {
     title: PropTypes.string,
     subtitle: PropTypes.string,
     storyline: PropTypes.string,
-    imagepath: PropTypes.string,
+    imagePath: PropTypes.string,
     rating: PropTypes.number,
-  }),
-};
-
-MovieCard.defaultProps = {
-  movie: {
-    title: 'Título genérico',
-    subtitle: 'Subtítulo genérico',
-    storyline: 'Storiline genérico',
-    imagepath: 'Caminho genérico da imagem',
-    rating: 666,
-  },
+  }).isRequired,
 };
 
 export default MovieCard;

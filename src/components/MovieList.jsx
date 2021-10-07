@@ -3,19 +3,9 @@ import PropTypes from 'prop-types';
 import MovieCard from './MovieCard';
 
 class MovieList extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     const { filmes } = this.props;
-    return ({
-      filmes.map((filme) => {
-        return (
-          <MovieCard movie={ filme } />
-        )
-      })
-    });
+    return filmes.map((filme) => <MovieCard key={ filme.title } movie={ filme } />);
   }
 }
 
@@ -26,11 +16,7 @@ MovieList.propTypes = {
     storyline: PropTypes.string,
     imagepath: PropTypes.string,
     rating: PropTypes.number,
-  })),
-};
-
-MovieList.defaultProps = {
-  filmes: [],
+  })).isRequired,
 };
 
 export default MovieList;
