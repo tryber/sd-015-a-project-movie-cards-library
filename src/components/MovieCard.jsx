@@ -1,19 +1,16 @@
 // implement MovieCard component here
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class MovieCard extends Component {
   render() {
-    const { movie } = this.props;
+    const { movie: { title, subtitle, imagePath, storyline } } = this.props;
 
     return (
       <div>
-        <div>
-          {this.props.movie.map((e, index) => (
-            <div>
-              <p>{e.title}</p>
-            </div>
-          ))}
-        </div>
+        <img src={ imagePath } alt={ title } />
+        <h4>{ title }</h4>
+        <h5>{ subtitle }</h5>
+        <p>{ storyline }</p>
       </div>
     );
   }
