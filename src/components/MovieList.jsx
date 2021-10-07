@@ -1,11 +1,15 @@
 import React from 'react';
+import MovieCard from './MovieCard';
+import PropTypes from 'prop-types';
 
 class MovieList extends React.Component {
   render() {
     return (
-      <header>
-        <h1>Movie Cards Library</h1>
-      </header>
+      <div>
+      <MovieCard />
+      <MovieCard />
+      <MovieCard />
+      </div>
     )
   }
 }
