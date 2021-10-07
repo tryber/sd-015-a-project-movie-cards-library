@@ -1,24 +1,24 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 // import movies from '../data';
 
 class MovieCard extends React.Component {
   render() {
-    // const { key } = this.props;
+    const { movie } = this.props;
     // {console.log(key))}
     return (
-      <li>777</li>
+      <img src={ movie.imagePath } alt={ movie.title } />
     );
   }
 }
 
-// MovieCard.propTypes = {
-//   key: PropTypes.string,
-// };
+MovieCard.propTypes = {
+  movie: PropTypes.string,
+};
 
-// MovieCard.defaultProps = {
-//   key: '',
-// };
+MovieCard.defaultProps = {
+  movie: [],
+};
 
 export default MovieCard;
