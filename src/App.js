@@ -5,7 +5,6 @@ import movies from './data';
 
 class App extends React.Component {
   render() {
-    const {movie: }
     return (
       <div>
         <MovieList movie={ movies } />
