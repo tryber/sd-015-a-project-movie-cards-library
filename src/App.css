@@ -62,8 +62,8 @@ body {
 
 .movie-card-storyline {
   font-size: 14px;
-  text-align: justify;
   margin: 0 5px 65px;
+  text-align: justify;
 }
 
 .rating {
