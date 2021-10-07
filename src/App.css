@@ -31,8 +31,8 @@ body {
   border-radius: 3px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 450px;
+  justify-content: space-between;
   margin: 5px;
   overflow: hidden;
   width: 300px;
