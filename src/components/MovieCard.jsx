@@ -21,7 +21,7 @@ class MovieCard extends Component {
         <p className="movie-card-storyline">
           { movie.storyline }
         </p>
-        <Rating nota={ movie.rating }/>
+        <Rating rating={ movie.rating } />
       </div>);
   }
 }
