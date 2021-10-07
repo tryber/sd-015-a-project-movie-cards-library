@@ -8,6 +8,7 @@ describe('15 - Crie um componente `<App />`', () => {
   it('Renderize `<Header />` dentro do componente `<App />`', () => {
     wrapper = shallow(<App />);
     expect(wrapper.find('Header').length).toEqual(1);
+  
   });
 });
 
