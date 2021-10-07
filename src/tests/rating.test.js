@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { mount, shallow } from 'enzyme';
 import MovieCard from '../components/MovieCard';
 import Rating from '../components/Rating';
