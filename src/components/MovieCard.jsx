@@ -11,6 +11,9 @@ class MovieCard extends Component {
           src={ movie.imagePath }
           alt={ movie.subtitle }
         />
+        <h4 className="movie-card-title">
+          { movie.title }
+        </h4>
       </div>);
   }
 }
