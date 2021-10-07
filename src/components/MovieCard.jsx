@@ -1,24 +1,14 @@
 import React from 'react';
+import movies from '../data';
 
 class MovieCard extends React.Component {
   render() {
     return (
       <div>
-       <p>oi</p>
+        <p>777</p>
       </div>
     );
   }
 }
-
-// MovieCard.propTypes = {
-//   data: PropTypes.Array
-//   }),
-// };
-
-// MovieList.defaultProps = {
-//   data: {
-//     Hello: '',
-//   },
-// };
 
 export default MovieCard;
