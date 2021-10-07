@@ -24,3 +24,5 @@ yarn-error.log*
 
 # VSCode repo settings
 .vscode
+
+package.json

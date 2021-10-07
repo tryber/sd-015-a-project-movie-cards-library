@@ -32,11 +32,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 450px;
+  justify-content: space-between;
   margin: 5px;
   overflow: hidden;
   width: 300px;
 }
-
 
 .movie-card-image {
   width: 100%;
