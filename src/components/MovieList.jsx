@@ -9,7 +9,7 @@ class MovieList extends React.Component {
     const { movies } = this.props;
     return (
       // passar movies para poder usar dentro da div e fazer o map.
-      <div movies={ movies }>
+      <div className="movie-list" movies={ movies }>
         {
           // passando movie como props para o card
           movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)
