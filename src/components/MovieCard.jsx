@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Rating from './Rating';
 
 class MovieCard extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+  // constructor(props) {
+  //   super(props)
+  // }
 
   render() {
     const { movie: { title, subtitle, storyline, rating } } = this.props;
