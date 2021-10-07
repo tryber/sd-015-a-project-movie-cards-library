@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: black;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -50,19 +50,20 @@ body {
 .movie-card-title {
   font-size: 24px;
   font-weight: 500;
-  margin: 0 0 12px;
+  margin: 15px 5px 12px;
 }
 
 .movie-card-subtitle {
   color: #6c757d;
   font-size: 16px;
   font-weight: 500;
-  margin: 0 0 8px;
+  margin: 0 5px 20px;
 }
 
 .movie-card-storyline {
   font-size: 14px;
   text-align: justify;
+  margin: 0 5px 65px;
 }
 
 .rating {
