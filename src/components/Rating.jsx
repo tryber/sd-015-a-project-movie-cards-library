@@ -2,24 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class Rating extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  // }
-
   render() {
-    const { nota } = this.props;
+    const { rating } = this.props;
     return (
-      <p>{ nota }</p>
+      <p className="movie-card-rating">{ rating }</p>
     );
   }
 }
 
 Rating.propTypes = {
-  nota: PropTypes.number,
+  rating: PropTypes.number,
 };
 
 Rating.defaultProps = {
-  nota: 2,
+  rating: 2,
 };
 
 export default Rating;
