@@ -81,3 +81,8 @@ body {
   justify-content: flex-end;
   padding: 12px 20px;
 }
+
+.flex-end {
+  display: flex;
+  flex-direction: row-reverse;
+}
