@@ -18,4 +18,4 @@ function App() {
 }
 
 export default App;
-// exporta a function app pro arquvio index.js (main)
+// exporta a function app pro arquvio index.js (main
