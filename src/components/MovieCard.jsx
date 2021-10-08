@@ -4,10 +4,6 @@ import PropTypes from 'prop-types';
 // import movies from '../data';
 
 class MovieCard extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { movie: { title, imagePath, subtitle, storyline, rating } } = this.props;
     return (
