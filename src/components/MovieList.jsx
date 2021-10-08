@@ -1,6 +1,7 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 import movies from '../data';
+// erro doido no eslint mas ta tudo certo nessa porra
 
 class MovieList extends React.Component {
   render() {
