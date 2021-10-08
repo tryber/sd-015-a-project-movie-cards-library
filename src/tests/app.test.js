@@ -18,3 +18,12 @@ describe('16 - Renderize `<MovieList />` dentro do componente `<App />`', () => 
     expect(wrapper.find('MovieList').length).toEqual(1);
   });
 });
+
+// -----------------desativando testes----------------------------------
+// describe('15 - Crie um componente `<App />`', () => {
+//   let wrapper;
+//   it.skip('Renderize `<Header />` dentro do componente `<App />`', () => {
+//     wrapper = shallow(<App />);
+//     expect(wrapper.find('Header').length).toEqual(1);
+//   });
+// });
