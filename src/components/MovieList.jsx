@@ -10,13 +10,7 @@ class MovieList extends React.Component {
         {
         // faço uma iteração usando map para capturar os valores 'movie'(objeto), movie.title(string),
         // a minha imagem, movie.imagepath e meu rating(number), retornando um novo array via map
-          Movies.map((movie) => (
-            <MovieCard
-              movie={ movie }
-              key={ movie.title }
-              img={ movie.imagePath }
-              rating={ movie.rating }
-            />))
+          Movies.map((movie) => <MovieCard movie={ movie } key={ movie.title } />)
         }
       </div>
     );
