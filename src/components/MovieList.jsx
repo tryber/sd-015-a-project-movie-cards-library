@@ -4,13 +4,17 @@ import MovieCard from './MovieCard';
 
 class MovieList extends React.Component {
   render() {
-    const { Movies } = this.props;
+    const { movies } = this.props;
     return (
       <div>
         {
         // faço uma iteração usando map para capturar os valores 'movie'(objeto), movie.title(string),
         // a minha imagem, movie.imagepath e meu rating(number), retornando um novo array via map
-          Movies.map((movie) => <MovieCard movie={ movie } key={ movie.title } />)
+          movies.map((movie) => (<MovieCard
+            className="movie-card"
+            movie={ movie }
+            key={ movie.title }
+          />))
         }
       </div>
     );
@@ -18,7 +22,7 @@ class MovieList extends React.Component {
 }
 
 MovieList.propTypes = {
-  Movies: PropTypes.arrayOf(PropTypes.object).isRequired,
+  movies: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default MovieList;
