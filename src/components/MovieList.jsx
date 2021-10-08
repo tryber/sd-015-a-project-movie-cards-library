@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 import movies from '../data';
-// erro doido no eslint mas ta tudo certo nessa porra
+// erro doido no eslint mas ta tudo certo nessa
 
 class MovieList extends React.Component {
   render() {
@@ -9,7 +9,9 @@ class MovieList extends React.Component {
       <main className="movie-list">
         {
           movies.map((element) => (
-            <MovieCard key={ element.title } movie={ element } />
+            <div key={ element.title }>
+              <MovieCard movie={ element } />
+            </div>
           ))
         }
       </main>
