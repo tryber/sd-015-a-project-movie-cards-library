@@ -1,11 +1,11 @@
 import React from 'react';
+import { render } from 'enzyme';
 import './App.css';
 // capturo meu componente Header.
 import Header from './components/Header';
 // capturo meu objeto que está contido em data.js para ser usado como valor do meu props(argumento).
-import Data from './data';
 import MovieList from './components/MovieList';
-import { render } from 'enzyme';
+import Movies from './data';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       {/* capturo a minha tag header com import e renderizo o que é feito no
       componente/header. */}
       <Header />
-      <MovieList movies={ Data } />
+      <MovieList Movies={ Movies } />
     </div>
   );
 }
