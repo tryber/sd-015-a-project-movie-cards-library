@@ -1,4 +1,3 @@
-
 const movies = [
   {
     title: 'Kingsglaive',
