@@ -1,5 +1,5 @@
-import React from "react";
-import movies from "../data"
+import React from 'react';
+import movies from '../data';
 
 class Rating extends React.Component {
   render() {
@@ -11,4 +11,4 @@ class Rating extends React.Component {
     );
   }
 }
-export default Rating
+export default Rating;
