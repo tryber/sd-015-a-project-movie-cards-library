@@ -19,7 +19,6 @@ class MovieCard extends React.Component {
   }
 }
 MovieCard.propTypes = {
-  movies : PropTypes.arrayOf(PropTypes.object),
   title : PropTypes.string,
   subtitle : PropTypes.string,
   storyline : PropTypes.string,
@@ -28,7 +27,6 @@ MovieCard.propTypes = {
 };
 
 MovieCard.defaultProps = {
-  movies : [],
   title : '',
   subtitle : '',
   storyline : '',
