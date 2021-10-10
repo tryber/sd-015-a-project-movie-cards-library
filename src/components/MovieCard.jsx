@@ -27,4 +27,12 @@ MovieCard.propTypes = {
   rating : PropTypes.number,
 };
 
+MovieCard.defaultProps = {
+  movies : [],
+  title : '',
+  subtitle : '',
+  storyline : '',
+  imagePath : '',
+  rating : 0,
+};
 export default MovieCard;
