@@ -9,6 +9,8 @@ class MovieList extends React.Component {
     return (
       <>
         <MovieCard />
+        <MovieCard />
+        <MovieCard />
         <h1>Movie Cards Library</h1>
       </>
     );
