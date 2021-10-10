@@ -9,5 +9,5 @@ class Rating extends React.Component {
     );
   }
 }
-
+Rating.defaultProps = { rating: 0 };
 export default Rating;
