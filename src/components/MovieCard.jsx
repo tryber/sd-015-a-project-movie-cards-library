@@ -19,7 +19,7 @@ class MovieCard extends React.Component {
   }
 }
 MovieCard.propTypes = {
-  movies: PropTypes.shape({
+  movie: PropTypes.shape({
     title: PropTypes.string,
     subtitle: PropTypes.string,
     storyline: PropTypes.string,
@@ -34,7 +34,7 @@ MovieCard.propTypes = {
 };
 
 MovieCard.defaultProps = {
-  movies: [],
+  movie: PropTypes.object,
   title: '',
   subtitle: '',
   storyline: '',
