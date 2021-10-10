@@ -19,8 +19,8 @@ class MovieCard extends React.Component {
   }
 }
 
-MovieCard.prototypes = {
-  movies: PropTypes.arrayOf(
+MovieCard.propTypes = {
+  movie: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
       subtitle: PropTypes.string,
@@ -28,9 +28,9 @@ MovieCard.prototypes = {
       storyline: PropTypes.string,
       rating: PropTypes.number,
     }),
-  ),
+  ).isRequired,
 };
 
-MovieCard.defaultProps = { movies: [] };
+// MovieCard.defaultProps = { movies: [] };
 
 export default MovieCard;
