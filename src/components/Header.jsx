@@ -1,5 +1,4 @@
 import React from 'react';
-import movies from '../data';
 
 class Header extends React.Component {
   render() {
