@@ -2,7 +2,8 @@ import React from 'react';
 
 class MovieCard extends React.Component {
   render() {
-    return ('x');
+    return ('y');
   }
 }
+
 export default MovieCard;
