@@ -1,5 +1,6 @@
 import React from 'react';
 import MovieCard from './MovieCard';
+import '../data'
 
 class MovieList extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class MovieList extends React.Component {
         {movies.map((movie) => (
           <MovieCard
             key={ movie.title }
-            movie={ movie   }
+            movie={ movie }
           />
         ))}
       </div>
