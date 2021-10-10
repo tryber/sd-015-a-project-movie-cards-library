@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {
-        movies.map((m) => <MovieCard key={ m.title } movieCard={ m } />)
-      }
-      <MovieList />
+      <MovieList movie={ movies } />
+      <MovieCard movie={ movies[0] } />
+      <MovieCard movie={ movies[1] } />
+      <MovieCard movie={ movies[2] } />
+      <MovieCard movie={ movies[3] } />
+      <MovieCard movie={ movies[4] } />
       <Rating />
     </div>
   );
