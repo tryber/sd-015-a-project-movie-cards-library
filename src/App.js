@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header class="movie-card-header" />
-      <MovieList movie={ data } />
+      <MovieList movies={ data } />
     </div>
   );
 }
