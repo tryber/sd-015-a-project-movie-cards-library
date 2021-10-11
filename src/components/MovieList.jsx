@@ -6,9 +6,8 @@ class MovieList extends React.Component {
   render() {
     const { movies } = this.props;
     return (
-      <div>
+      <div className="movie-list">
         {
-          // eslint-disable-next-line react/prop-types
           movies.map((movie) => <MovieCard movie={ movie } key={ movie.title } />)
         }
       </div>

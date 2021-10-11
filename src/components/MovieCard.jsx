@@ -4,7 +4,6 @@ import Rating from './Rating';
 
 class MovieCard extends React.Component {
   render() {
-    // eslint-disable-next-line react/prop-types
     const { movie: { title, subtitle, storyline, rating, imagePath } } = this.props;
     return (
       <div className="movie-card">
@@ -41,3 +40,4 @@ MovieCard.defaultProps = {
     rating: 5,
   },
 };
+export default MovieCard;
