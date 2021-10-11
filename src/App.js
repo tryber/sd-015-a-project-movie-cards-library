@@ -17,11 +17,7 @@ function App() {
       <MovieCard movie={ movies[3] } />
       <MovieCard movie={ movies[4] } />
       <section>
-        {
-          movies.map((rating, rate) => (
-            <Rating key={ rate } rating={ rating } />
-          ))
-        }
+        <Rating />
       </section>
     </div>
   );

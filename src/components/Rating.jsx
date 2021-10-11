@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// import movies from '../data';
 
 class Rating extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class Rating extends React.Component {
     console.log(rating);
     return (
       <div>
-        <p className="rating">{ rating.rating }</p>
+        <p className="rating">{ rating }</p>
       </div>
     );
   }
