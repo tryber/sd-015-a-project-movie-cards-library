@@ -5,7 +5,7 @@ import MovieCard from './MovieCard';
 
 class MovieList extends React.Component {
   render() {
-    const { movies } = this.props;
+    const { movies } = this.props;cc
     return (
       <>
         <h1>Movie Cards Library</h1>
