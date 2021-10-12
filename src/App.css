@@ -1,12 +1,12 @@
 body {
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: whitesmoke;
   box-sizing: border-box;
   font-size: 16px;
 }
 
 img {
   width: 25%;
-  border: solid, 10px, #343a40;
+  border: #343a40;
 }
 
 .movie-card-header {
@@ -32,7 +32,7 @@ img {
 
 .movie-card {
   background-color: white;
-  border: 1px solid rgba(255, 253, 253, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
   display: flex;
   flex-direction: column;
@@ -56,13 +56,10 @@ img {
   font-size: 24px;
   font-weight: 500;
   margin: 0 0 12px;
-  color: rgb(255, 232, 190);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
 }
 
 .movie-card-subtitle {
-  color: #d0dde9;
+  color: #6c757d;
   font-size: 16px;
   font-weight: 500;
   margin: 0 0 8px;
