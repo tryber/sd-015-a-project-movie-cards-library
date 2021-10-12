@@ -4,13 +4,14 @@ import propTypes from 'prop-types';
 
 class Rating extends React.Component {
   render() {
-    const { rat } = this.props;
+    const { rating } = this.props;
     return (
-      <h3 className="rating">{ rat }</h3>
+      <p className="rating">{ rating }</p>
     );
   }
 }
 Rating.propTypes = {
-  rat: propTypes.number,
+  rating: propTypes.number,
 }.isRequired;
+
 export default Rating;
