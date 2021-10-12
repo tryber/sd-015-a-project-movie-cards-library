@@ -1,6 +1,6 @@
 // implement MovieList component here
-import MovieCard from './MovieCard';
 import React from 'react';
+import MovieCard from './MovieCard';
 
 class MovieList extends React.Component {
   render() {
@@ -8,8 +8,8 @@ class MovieList extends React.Component {
     return (
       <header>
         <h1>Movie Cards Library</h1>
-        { movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />) };
+        { movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />) }
       </header>);
   }
-} 
+}
 export default MovieList;
