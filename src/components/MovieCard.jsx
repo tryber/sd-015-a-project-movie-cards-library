@@ -1,6 +1,6 @@
 // implement MovieCard component here
 import React from 'react';
-import propTypes from 'Prop-types';
+import propTypes from 'prop-types';
 
 class MovieCard extends React.Component {
   render() {
