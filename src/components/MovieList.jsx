@@ -1,7 +1,7 @@
 // implement MovieList component here
 import React from 'react';
-import MovieCard from './MovieCard';
 import PropTypes from 'prop-types';
+import MovieCard from './MovieCard';
 import '../data';
 
 class MovieList extends React.Component {
