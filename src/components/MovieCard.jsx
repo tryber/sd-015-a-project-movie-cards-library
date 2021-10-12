@@ -11,17 +11,17 @@ class MovieCard extends React.Component {
         <h1>Movie Cards Library</h1>
         <img className="movie-card-img" src={ imagePath } alt="img the movie" />
         <h4 className="movie-card-title">{title}</h4>
-        <h5 className='movie-card-subtitle'>{subtitle}</h5>
-        <p className='movie-card-storyline'>{storyline}</p>
+        <h5 className="movie-card-subtitle">{subtitle}</h5>
+        <p className="movie-card-storyline">{storyline}</p>
       </header>);
   }
 }
 MovieCard.propTypes = {
-movie: propTypes.shape({
-    title: propTypes.string,
-  subtitle: propTypes.string,
-  storyline: propTypes.string,
-  imagePath: propTypes.string,
+movie:propTypes.shape({
+    title:propTypes.string,
+  subtitle:propTypes.string,
+  storyline:propTypes.string,
+  imagePath:propTypes.string,
 }).isRequired,
 };
 export default MovieCard;
