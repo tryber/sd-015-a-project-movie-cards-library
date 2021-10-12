@@ -8,7 +8,10 @@ class MovieList extends React.Component {
   render() {
     return (
       <div>
-        {data.map((i) => <MovieCard key={ `${i.title}` } movie={ i } />)}
+        {data.map((i) => (<MovieCard
+          key={ `${i.title}` }
+          movie={ i }
+        />))}
       </div>
     );
   }

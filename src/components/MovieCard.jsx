@@ -1,6 +1,8 @@
 // implement MovieCard component here
 import React from 'react';
+import PropTypes from 'prop-types';
 import Rating from './Rating';
+
 /* title: 'Ghost In The Shell',
     subtitle: 'Ghost In The Shell',
     storyline: 'A hacker known as the Puppet Master is hunted by a female cyborg cop and her partner. This film is a revised version of Ghost in the Shell (1995).',
@@ -9,24 +11,33 @@ import Rating from './Rating';
  */
 class MovieCard extends React.Component {
   render() {
+    const { movie: { title, subtitle, storyline, rating, imagePath } } = this.props;
     return (
       <div>
-        <img src={ this.props.movie.imagePath } alt="Movie icon" />
+        <img src={ imagePath } alt="Movie icon" />
         <h4>
-          {this.props.movie.title}
+          {title}
         </h4>
         <h5>
-          {this.props.movie.subtitle}
+          {subtitle}
         </h5>
         <p>
-          {this.props.movie.storyline}
+          {storyline}
         </p>
         <div>
-          <Rating />
+          <Rating rating={ rating } />
         </div>
       </div>
     );
   }
 }
-
+MovieCard.propTypes = {
+  movie: PropTypes.exact({
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    storyline: PropTypes.string,
+    rating: PropTypes.number,
+    imagePath: PropTypes.string,
+  }).isRequired,
+};
 export default MovieCard;
