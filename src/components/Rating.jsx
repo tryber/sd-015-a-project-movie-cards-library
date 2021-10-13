@@ -4,7 +4,8 @@ import movies from '../data';
 class Rating extends React.Component {
   render() {
     return (
-      movies.map((rate, index) => (<p key={ index }>{ rate.rating }</p>))
+      movies.map((rate, index) => (
+        <p key={ index } className="rating">{ rate.rating }</p>))
     );
   }
 }
