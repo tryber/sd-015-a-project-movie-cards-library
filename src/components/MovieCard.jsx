@@ -34,14 +34,14 @@ MovieCard.propTypes = {
   }).isRequired,
 };
 
-MovieCard.defaultProps = {
-  movie: {
-    title: 'Título',
-    subtitle: 'Subtítulo',
-    storyline: 'Sinopse',
-    rating: 0,
-    imagePath: 'images/imagem-default.png',
-  },
-};
+// MovieCard.defaultProps = {
+//   movie: {
+//     title: 'Título',
+//     subtitle: 'Subtítulo',
+//     storyline: 'Sinopse',
+//     rating: 0,
+//     imagePath: 'images/imagem-default.png',
+//   }.isRequired,
+// };
 
 export default MovieCard;
