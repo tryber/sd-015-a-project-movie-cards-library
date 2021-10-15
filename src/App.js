@@ -5,11 +5,10 @@ import Header from './components/Header';
 // import List from './components/MovieList';
 // import Rating from './components/Rating';
 
-
 function App() {
   return (
     <div className="App">
-     <Header />
+      <Header />
     </div>
   );
 }
