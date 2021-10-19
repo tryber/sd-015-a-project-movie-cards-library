@@ -34,12 +34,13 @@ MovieCard.propTypes = {
   imagePath: PropTypes.string,
   rating: PropTypes.number,
 };
-MovieCard.defaltProps = {
+MovieCard.defaultProps = {
   movie: PropTypes.object,
   title: '',
   subtitle: '',
   storyline: '',
   imagePath: '',
+  rating: 0,
 };
 
 export default MovieCard;
